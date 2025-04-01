@@ -12,8 +12,8 @@ const Hero = () => {
         <div className="absolute top-1/3 -left-20 w-80 h-80 rounded-full bg-primary/5 animate-float" style={{ animationDelay: "2s" }}></div>
       </div>
       
-      <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center relative z-10">
-        <div className="w-full md:w-3/5 animate-fade-in">
+      <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-center relative z-10">
+        <div className="w-full md:w-1/2 animate-fade-in text-center md:text-left">
           <div className="inline-block mb-2 px-3 py-1 rounded-full bg-secondary/10 border border-secondary/20 text-secondary text-sm font-medium">
             Software Engineer
           </div>
@@ -26,7 +26,7 @@ const Hero = () => {
             Machine Learning & Web Development Specialist
           </h2>
           
-          <div className="space-y-3 mb-8">
+          <div className="space-y-3 mb-8 mx-auto md:mx-0 max-w-md">
             <div className="flex items-center gap-2 text-muted-foreground group hover:text-foreground transition-colors">
               <div className="w-8 h-8 rounded-full bg-muted flex items-center justify-center group-hover:bg-muted/80 transition-colors">
                 <Phone size={14} />
@@ -51,7 +51,7 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="flex gap-4 mb-8">
+          <div className="flex gap-4 mb-8 justify-center md:justify-start">
             <Button variant="outline" size="icon" className="rounded-full bg-card hover:bg-card/80 hover:text-secondary transition-all duration-300">
               <Linkedin size={20} className="text-[#0077B5]" />
             </Button>
@@ -63,7 +63,7 @@ const Hero = () => {
             </Button>
           </div>
           
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-4 justify-center md:justify-start">
             <Button asChild variant="default" className="relative overflow-hidden group">
               <a href="#contact">
                 <span className="absolute -inset-x-1 -top-1 h-0.5 bg-primary-foreground/30 group-hover:animate-[flash_2s_ease-in-out]"></span>
