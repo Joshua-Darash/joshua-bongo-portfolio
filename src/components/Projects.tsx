@@ -21,7 +21,7 @@ const projects = [
     period: "Sep 2023 – Dec 2023",
     description: "Designed and developed a React.js-based virtual tour platform with Figma for Soroti University.",
     tags: ["React.js", "Figma", "JavaScript"],
-    image: "/images/virtual-campus-tour.jpg", 
+    image: "/images/virtual-campus-tour2.jpg", 
     links: {
       github: "#",
       demo: "#"
