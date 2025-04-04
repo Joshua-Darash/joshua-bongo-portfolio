@@ -4,6 +4,8 @@
 
 **URL**: https://lovable.dev/projects/cf8a17e5-1b11-4f56-a3ce-55292d2ed430
 
+**Deployed at (URL)**: https://lovable.dev/projects/cf8a17e5-1b11-4f56-a3ce-55292d2ed430
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
